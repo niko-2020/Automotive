@@ -17,6 +17,9 @@ namespace AutomotiveStore
             InitializeComponent();
         }
 
-        
+        public void OilLubeCharges()
+        {
+
+        }
     }
 }
