@@ -334,6 +334,7 @@
             this.CalculateButton.TabIndex = 6;
             this.CalculateButton.Text = "Calculate";
             this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // ClearButton
             // 
@@ -344,6 +345,7 @@
             this.ClearButton.TabIndex = 7;
             this.ClearButton.Text = "Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
+            this.ClearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // ExitButton
             // 
@@ -354,6 +356,7 @@
             this.ExitButton.TabIndex = 8;
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // Form1
             // 
